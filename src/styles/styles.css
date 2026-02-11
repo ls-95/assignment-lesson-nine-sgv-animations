@@ -167,3 +167,8 @@ img:hover {
 }
 
 /*SVG - styling*/
+.svg-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
