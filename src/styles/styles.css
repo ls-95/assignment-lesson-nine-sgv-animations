@@ -99,6 +99,8 @@ h1 {
   gap: 50px;
 }
 
+/*Styling for images*/
+
 @keyframes swing {
   0% {
     transform: rotate(25deg);
@@ -163,3 +165,5 @@ img:hover {
   padding-top: 20px;
   font-size: 24px;
 }
+
+/*SVG - styling*/
