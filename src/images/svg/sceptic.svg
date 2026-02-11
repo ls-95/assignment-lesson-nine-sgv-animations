@@ -5,19 +5,14 @@
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <circle cx="250" cy="250" r="250" fill="red" />
-          <line
-            x1="150"
-            y1="150"
-            x2="350"
-            y2="350"
-            style="stroke: white; stroke-width: 20"
-          />
+          <circle cx="250" cy="250" r="250" fill="#FFEAA7" />
+          <circle cx="150" cy="150" r="50" fill="brown" />
+          <circle cx="350" cy="150" r="50" fill="brown" />
           <line
             x1="150"
             y1="350"
             x2="350"
-            y2="150"
-            style="stroke: white; stroke-width: 20"
+            y2="350"
+            style="stroke: #fbcc32; stroke-width: 20; stroke-linecap: round"
           />
         </svg>
