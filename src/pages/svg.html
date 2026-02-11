@@ -41,23 +41,34 @@
     <main class="svg-container">
       <div class="svg-image">
         <svg
+          viewbox="0 0 500 500"
           width="500"
           height="500"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <circle cx="250" cy="250" r="250" fill="red" />
+          <line
+            x1="150"
+            y1="150"
+            x2="350"
+            y2="350"
+            style="stroke: white; stroke-width: 20"
+          />
+          <line
+            x1="150"
+            y1="350"
+            x2="350"
+            y2="150"
+            style="stroke: white; stroke-width: 20"
+          />
         </svg>
       </div>
       <div class="svg-image">
-        <svg
-          width="500"
-          height="500"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <circle cx="250" cy="250" r="250" fill="yellow" />
-        </svg>
+        <img src="../images/svg/sceptic-2.svg" alt="A sceptic face" />
+      </div>
+      <div class="svg-image">
+        <div class="sceptic-face-container"></div>
       </div>
     </main>
   </body>
