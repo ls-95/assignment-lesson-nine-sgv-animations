@@ -6,6 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #d4b693;
 }
 
 /*Navbar styling*/
@@ -14,7 +15,7 @@ nav {
   display: flex;
   justify-content: end;
   align-items: center;
-  background-color: rgb(0, 0, 203);
+  background-color: #065535;
 }
 
 .nav-links {
@@ -39,11 +40,11 @@ a {
 }
 
 ul li:hover {
-  background-color: blue;
+  background-color: #066c43;
 }
 
 ul li:active {
-  background-color: rgb(0, 0, 174);
+  background-color: #05452b;
 }
 
 a:active {
