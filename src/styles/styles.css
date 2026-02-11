@@ -8,6 +8,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/*Navbar styling*/
+
 nav {
   display: flex;
   justify-content: end;
@@ -47,4 +49,38 @@ ul li:active {
 a:active {
   position: relative;
   top: 2px;
+}
+
+/*Main section - animation styling*/
+
+main {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home-container {
+  padding: 100px 0 100px 0;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 10px;
+  margin-bottom: 75px;
+}
+
+.animations-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.polaroid-container {
+  margin: 0 auto;
+}
+
+img {
+  max-width: 400px;
+  width: 100%;
+  height: 265px;
 }
