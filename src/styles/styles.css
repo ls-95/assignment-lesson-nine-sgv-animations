@@ -60,6 +60,7 @@ main {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 90px;
 }
 
 .home-container {
@@ -87,11 +88,25 @@ h1 {
   gap: 50px;
 }
 
+@keyframes swing {
+  0% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(25deg);
+  }
+}
+
 .polaroid-container {
   position: relative;
   margin: 0 auto;
   background-color: #fff;
   padding: 15px 15px 40px 15px;
+  transform-origin: top left;
+  animation: swing 1.2s ease-in-out infinite;
 }
 
 .dot {
