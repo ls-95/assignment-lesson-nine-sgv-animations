@@ -8,6 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #d4b693;
   color: #2c2c2c;
+  overflow-x: hidden;
 }
 
 /*Navbar styling*/
@@ -38,7 +39,8 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in;
+  will-change: transform;
 }
 
 ul li:hover {
