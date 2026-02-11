@@ -7,6 +7,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #d4b693;
+  color: #2c2c2c;
 }
 
 /*Navbar styling*/
@@ -15,7 +16,7 @@ nav {
   display: flex;
   justify-content: end;
   align-items: center;
-  background-color: #065535;
+  background-color: #2c2c2c;
 }
 
 .nav-links {
@@ -34,16 +35,18 @@ a {
   text-decoration: none;
   color: #fff;
   letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 ul li:hover {
-  background-color: #066c43;
+  background-color: #3b3b3b;
 }
 
 ul li:active {
-  background-color: #05452b;
+  background-color: #000;
 }
 
 a:active {
@@ -71,6 +74,9 @@ h1 {
   max-width: 400px;
   width: 100%;
   letter-spacing: 10px;
+}
+
+.header-text {
   text-decoration: underline;
   text-decoration-color: #fff;
 }
